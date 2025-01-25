@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: https://github.com/BCN-AMS/BCN-AMS.github.io('Aviation data suite background.PNG'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-image: https://github.com/BCN-AMS/BCN-AMS.github.io('Aviation\ data\ suite\ background.PNG'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
