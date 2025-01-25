@@ -52,3 +52,13 @@ button[type="submit"] {
   font-weight: bold;
   margin-top: 10px;
 }
+
+.request-access {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.request-access a {
+  color: rgb(204, 0, 0); /* Bain red */
+  text-decoration: none;
+}

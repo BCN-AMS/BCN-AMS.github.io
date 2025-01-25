@@ -2,6 +2,7 @@ const loginForm = document.getElementById('loginForm');
 const loginUsername = document.getElementById('loginUsername');
 const loginPassword = document.getElementById('loginPassword');
 const errorMessage = document.querySelector('.error-message');
+const requestAccessLink = document.getElementById('requestAccessLink');
 
 // Create an array of valid usernames and passwords
 const validUsers = [
@@ -35,4 +36,11 @@ loginForm.addEventListener('submit', (event) => {
   // Clear input fields after submission (optional)
   loginUsername.value = '';
   loginPassword.value = '';
+});
+
+requestAccessLink.addEventListener('click', (event) => {
+  event.preventDefault();
+
+  // Create a new window/tab for the Microsoft Forms link
+  window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=Eg4S6_Fleke-jP5PZZJnJIADfdts1qtEvHvzd3LNmzZUOTdEMzk4RFE2SUE4R0xQRDNIOUZDS0Q1Ry4u', '_blank');
 });
