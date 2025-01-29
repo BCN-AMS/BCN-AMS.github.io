@@ -64,12 +64,10 @@ button[type="submit"] {
 }
 
 .back-button {
-  display: block;
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.back-button a {
-  color: rgb(204, 0, 0); /* Bain red */
-  text-decoration: none;
+  position: absolute;
+  top: 10px; 
+  left: 10px;
+  padding: 5px 10px; /* Optional padding for better appearance */
+  background-color: rgba(255, 255, 255, 0.7); /* Optional background color */
+  border-radius: 3px;
 }
