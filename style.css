@@ -62,3 +62,14 @@ button[type="submit"] {
   color: rgb(204, 0, 0); /* Bain red */
   text-decoration: none;
 }
+
+.back-button {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.back-button a {
+  color: rgb(204, 0, 0); /* Bain red */
+  text-decoration: none;
+}
