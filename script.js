@@ -34,7 +34,7 @@ loginForm.addEventListener('submit', (event) => {
   if (isValid) {
     if (isATD1) {
       // Redirect ATD1 to a different slide
-      window.location.href = 'https://bainandcompany.sharepoint.com/sites/AMSDataSuite/SitePages/Aerospace,-Defense-and-Government-Sevices.aspx'; // Replace with your ATD1 slide URL
+      window.location.href = 'https://bainandcompany.sharepoint.com/:u:/s/AMSDataSuite/EeQhTAcQB7BNmWDR_o3UMTUBUkim-ECpijIpI-hXFo7ang?e=XdLIBS'; // Replace with your ATD1 slide URL
     } else {
       // Redirect other valid users to the default page
       window.location.href = 'https://bainandcompany.sharepoint.com/:u:/r/sites/AMSDataSuite/SitePages/Commercial-Aviation-Forecasting-Solution-(Dashboard-test).aspx?csf=1&web=1&share=EfrM4737W3pBqfkTP3kCREoBAyQ37g4SmriIqfLXlbKODA&e=mgrfH5';
